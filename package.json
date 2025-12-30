@@ -1,33 +1,23 @@
 {
-  "name": "angular-sanitize",
-  "version": "1.8.3",
-  "description": "AngularJS module for sanitizing HTML",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "name": "angular-sanitize-lts",
+  "version": "1.8.4",
+  "description": "AngularJS Sanitize LTS (Long Term Support) - AngularJS module for sanitizing HTML",
+  "license": "MIT",
+  "author": "Angular Core Team <angular-core+npm@google.com>",
+  "contributors": [
+    "Thomas Stone <stone.tj.99@hotmail.co.uk>"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/angular/angular.js.git"
+    "url": "https://github.com/TJSTONE99/angular.js-lts.git"
   },
   "keywords": [
-    "angular",
-    "framework",
-    "browser",
-    "html",
-    "client-side"
+    "lts",
+    "angularjs",
+    "angular"
   ],
-  "author": "Angular Core Team <angular-core+npm@google.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/angular/angular.js/issues"
-  },
-  "homepage": "http://angularjs.org",
-  "jspm": {
-    "shim": {
-      "angular-sanitize": {
-        "deps": ["angular"]
-      }
-    }
+  "main": "index.js",
+  "peerDependencies": {
+    "angular-lts": "1.8.4"
   }
 }

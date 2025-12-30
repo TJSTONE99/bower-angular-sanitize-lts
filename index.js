@@ -1,2 +1,3 @@
-require('./angular-sanitize');
-module.exports = 'ngSanitize';
+import './angular-sanitize.js';
+
+export default window.ngSanitize;

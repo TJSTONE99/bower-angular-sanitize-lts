@@ -1,9 +1,5 @@
-/**
- * @license AngularJS v1.8.3
- * (c) 2010-2020 Google LLC. http://angularjs.org
- * License: MIT
- */
-(function(window, angular) {'use strict';
+((window, angular) => {
+'use strict';
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  *     Any commits to this file should be reviewed with security in mind.  *
@@ -689,7 +685,8 @@ function sanitizeText(chars) {
 // define ngSanitize module and register $sanitize service
 angular.module('ngSanitize', [])
   .provider('$sanitize', $SanitizeProvider)
-  .info({ angularVersion: '1.8.3' });
+  .info({ angularVersion: '1.8.4' });
+'use strict';
 
 /**
  * @ngdoc filter
@@ -886,6 +883,5 @@ angular.module('ngSanitize').filter('linky', ['$sanitize', function($sanitize) {
     }
   };
 }]);
-
 
 })(window, window.angular);
